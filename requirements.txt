@@ -1,0 +1,14 @@
+# Install PyTorch first (torch), using the index URL that matches your hardware
+# (see https://pytorch.org/get-started/locally/ ; on Apple Silicon the default
+# `pip install torch` includes MPS GPU support), then: pip install -r requirements.txt
+pytorch-lightning
+torchmetrics
+numpy
+pandas
+scikit-learn
+matplotlib
+albumentations
+torchinfo
+
+# Notebook runtime (omit if you already have Jupyter installed)
+notebook
